@@ -1,0 +1,18 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "second-app_lib",
+    srcs = ["main.go"],
+    importpath = "github.com/Hyvi/mogorepo-bazel-golang/packages/second-app",
+    visibility = ["//visibility:private"],
+    deps = [
+        "//packages/shared/handlers/health",
+        "@com_github_gin_gonic_gin//:gin",
+    ],
+)
+
+go_binary(
+    name = "second-app",
+    embed = [":second-app_lib"],
+    visibility = ["//visibility:public"],
+)

@@ -1,6 +1,8 @@
 # Monorepo Golang Application With Bazel
 
-packages folder is a folder to store multiple project
+packages folder is a folder to store multiple project,
+
+and share the same code (such as the Health handler in the dir "shared")
     
 ## Auto Generate BUILD.bazel
 

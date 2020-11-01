@@ -73,8 +73,8 @@ go_repository(
 go_repository(
     name = "com_github_envoyproxy_go_control_plane",
     importpath = "github.com/envoyproxy/go-control-plane",
-    sum = "h1:rEvIZUSZ3fx39WIi3JkQqQBitGwpELBIYWeBVh6wn+E=",
-    version = "v0.9.4",
+    sum = "h1:4cmBvAEBNJaGARUEs3/suWRyfyBfhf7I60WBZq+bv2w=",
+    version = "v0.9.1-0.20191026205805-5f8ba28d4473",
 )
 
 go_repository(
@@ -458,8 +458,8 @@ go_repository(
 go_repository(
     name = "org_golang_google_grpc",
     importpath = "google.golang.org/grpc",
-    sum = "h1:DGeFlSan2f+WEtCERJ4J9GJWk15TxUi8QGagfI87Xyc=",
-    version = "v1.33.1",
+    sum = "h1:rRYRFMVgRv6E0D70Skyfsr28tDXIuuPZyWGMPdMcnXg=",
+    version = "v1.27.0",
 )
 
 go_repository(
@@ -649,8 +649,8 @@ go_repository(
 go_repository(
     name = "com_github_stretchr_objx",
     importpath = "github.com/stretchr/objx",
-    sum = "h1:2vfRuCMp5sSVIDSqO8oNnWJq7mPa6KVP3iPIwFBuy8A=",
-    version = "v0.1.1",
+    sum = "h1:4G4v2dO3VZwixGIRoQ5Lfboy6nUhCyYzaqnIAPPhYs4=",
+    version = "v0.1.0",
 )
 
 go_repository(
@@ -719,8 +719,8 @@ go_repository(
 go_repository(
     name = "org_golang_x_tools",
     importpath = "golang.org/x/tools",
-    sum = "h1:obBdJPIfkOi5/rVh102giHaq0G8BZGE4eGB+NU6SgBo=",
-    version = "v0.0.0-20201031021630-582c62ec74d0",
+    sum = "h1:aZzprAO9/8oim3qStq3wc1Xuxx4QmAGriC4VU4ojemQ=",
+    version = "v0.0.0-20191119224855-298f0cb1881e",
 )
 
 go_repository(
@@ -831,8 +831,8 @@ go_repository(
 go_repository(
     name = "org_golang_x_sync",
     importpath = "golang.org/x/sync",
-    sum = "h1:SQFwaSi55rU7vdNs9Yr0Z324VNlrF+0wMqRXT4St8ck=",
-    version = "v0.0.0-20201020160332-67f06af15bc9",
+    sum = "h1:8gQV6CLnAEikrhgkHFbMAEhagSSnXWGV915qUMm9mrU=",
+    version = "v0.0.0-20190423024810-112230192c58",
 )
 
 go_repository(
