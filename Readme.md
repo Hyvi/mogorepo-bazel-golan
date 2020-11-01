@@ -19,3 +19,8 @@ bazel run  --verbose_failures  //packages/hello-world:hello-world
 ## Create Dep graph
 
 bazel query 'allpaths(packages/...,@com_github_gin_gonic_gin//:go_default_library)' --output graph | dot -Tpng > dep.png
+
+
+## Run Hello-World's Router Unit-Test
+
+bazel run  --verbose_failures  //packages/hello-world/router:router_test

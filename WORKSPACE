@@ -733,8 +733,8 @@ go_repository(
 go_repository(
     name = "com_github_bazelbuild_buildtools",
     importpath = "github.com/bazelbuild/buildtools",
-    sum = "h1:Et1IIXrXwhpDvR5wH9REPEZ0sUtzUoJSq19nfmBqzBY=",
-    version = "v0.0.0-20200718160251-b1667ff58f71",
+    sum = "h1:KD3Pb21bj7HuW++VoPSP5KrQxxAG7WYywP7MiFod0v4=",
+    version = "v0.0.0-20201028154123-64b319f859da",
 )
 
 go_repository(
