@@ -1,0 +1,15 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_binary(
+    name = "hello-world",
+    embed = [":hello-world_lib"],
+    importpath = "bazel-go/packages/hello-world/main",
+    visibility = ["//visibility:public"],
+)
+
+go_library(
+    name = "hello-world_lib",
+    srcs = ["main.go"],
+    importpath = "github.com/Hyvi/bazel-go/packages/hello-world",
+    visibility = ["//visibility:private"],
+)
