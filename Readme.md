@@ -13,3 +13,7 @@ bazel run //:gazelle -- update-repos -from_file=go.mod
 ## Run Hello-World Application
 
 bazel run  --verbose_failures  //packages/hello-world:hello-world
+
+## Create Dep graph
+
+bazel query 'allpaths(packages/...,@com_github_gin_gonic_gin//:go_default_library)' --output graph | dot -Tpng > dep.png
