@@ -12,9 +12,7 @@ require (
 	github.com/stretchr/testify v1.6.1 // indirect
 	go.starlark.net v0.0.0-20201014215153-dff0ae5b4820 // indirect
 	golang.org/x/arch v0.0.0-20201008161808-52c3e6f60cff // indirect
-	golang.org/x/mod v0.3.0 // indirect
-	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/tools v0.0.0-20201031021630-582c62ec74d0 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )

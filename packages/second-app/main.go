@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 
 	"github.com/Hyvi/mogorepo-bazel-golang/packages/shared/handlers/health"
 	"github.com/gin-gonic/gin"
@@ -13,6 +14,9 @@ func main() {
 	r := gin.New()
 	r.Use(gin.Recovery())
 	r.GET("/health", health.Health("Second APP"))
-	r.Run(":8080")
+	err := r.Run(":8080")
+	if err != nil {
+		log.Fatalf("Start Fails %v", err)
+	}
 
 }
