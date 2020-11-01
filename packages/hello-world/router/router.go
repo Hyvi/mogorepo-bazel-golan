@@ -1,7 +1,7 @@
 package router
 
 import (
-	"bazel-go/packages/shared/handlers/health"
+	"github.com/Hyvi/mogorepo-bazel-golang/packages/shared/handlers/health"
 
 	"github.com/gin-gonic/gin"
 )

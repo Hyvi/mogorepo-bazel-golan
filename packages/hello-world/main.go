@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bazel-go/packages/hello-world/ext"
-	"bazel-go/packages/hello-world/router"
+	"github.com/Hyvi/mogorepo-bazel-golang/packages/hello-world/ext"
+	"github.com/Hyvi/mogorepo-bazel-golang/packages/hello-world/router"
 	"fmt"
 )
 

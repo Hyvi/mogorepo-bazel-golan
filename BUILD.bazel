@@ -1,4 +1,4 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-#gazelle:prefix github.com/Hyvi/bazel-go
+#gazelle:prefix github.com/Hyvi/mogorepo-bazel-golang
 gazelle(name = "gazelle")
